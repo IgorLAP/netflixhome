@@ -10,7 +10,6 @@ body{
   color: #FFF;
   font-family: 'Roboto', sans-serif;
 }
-.pageContainer{
-  max-width: 1200px;
-  margin: auto;
+.lists{
+  margin-top: -80px;
 }
