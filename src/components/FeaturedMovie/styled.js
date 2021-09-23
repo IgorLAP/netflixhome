@@ -21,8 +21,9 @@ export const FeaturedArea = styled.div`
                 flex-direction: column;
                 justify-content: center;
                 padding-left: 30px;
-                /*padding-bottom: 100px;
-                padding-top: 70px;*/
+                padding-top: 70px;
+                padding-bottom: 100px;
+                
 
                 .name{
                     font-size: 60px;
@@ -90,4 +91,33 @@ export const FeaturedArea = styled.div`
             }
         }
     }
+@media (max-width: 760px){
+    .featured{
+        height: 90vh;
+
+        .horizontal{
+
+            .name{
+                font-size: 40px;
+            }
+            .info{
+                font-size: 16px;
+            }
+            .description{
+                font-size: 14px !important;
+                max-width: 100% !important;
+                margin-right: 30px;
+            }
+            .buttons{
+                .watchBtn, .listBtn{
+                    font-size: 16px !important;
+
+                }
+            }
+            .genres{
+                font-size: 14px !important;
+            }
+        }
+    }
+}
 `;

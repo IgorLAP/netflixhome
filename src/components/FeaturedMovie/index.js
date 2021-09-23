@@ -7,8 +7,30 @@ export default ({item}) => {
     let genres = [];
     for(let i in item.genres){
         genres.push(item.genres[i].name);
+        switch(item.genres[i].name){
+            case 'Soap':
+                let index = genres.indexOf('Soap');
+                if(index !== -1){
+                    genres[index] = 'Novela';
+                }
+            break;
+            case 'Action & Adventure':
+                let index1 = genres.indexOf('Action & Adventure');
+                if(index1 !== -1){
+                    genres[index1] = 'Ação e Aventura';
+                }
+            break;
+            case 'Sci-Fi & Fantasy':
+                let index2 = genres.indexOf('Sci-Fi & Fantasy');
+                if(index2 !== -1){
+                    genres[index2] = 'Ficção Científica e Fantasia';
+                }
+            break;
+        }
+         
     }
-
+    
+    
     return (
         <FeaturedArea back={item} >
             <section className="featured" >
