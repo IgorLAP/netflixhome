@@ -6,4 +6,4 @@
 ### Prévia:
 ![preview](https://i.imgur.com/pHt1FTA.png)
 
-### Link: em breve
+### Link: [Netflix Homepage](https://peaceful-aryabhata-850cc2.netlify.app)
